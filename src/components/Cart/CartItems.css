@@ -1,0 +1,30 @@
+/* CartItems.css */
+
+/* Styles for the cart item container */
+.cart-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Styles for the item name */
+  .cart-item h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Styles for the item description */
+  .cart-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Styles for the item price */
+  .cart-item .price {
+    font-size: 18px;
+    color: #4caf50;
+  }
+  

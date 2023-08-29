@@ -1,0 +1,32 @@
+/* MedicineItemslist.css */
+
+/* Styles for the list item container */
+.li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  /* Styles for the list item */
+  .li li {
+    list-style: none;
+  }
+  
+  /* Styles for the item details */
+  .li span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the AddToCartButton */
+  .li span button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

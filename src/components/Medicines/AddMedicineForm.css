@@ -1,0 +1,38 @@
+.form {
+    width: 50%;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.form button {
+    width: 20%;
+    margin: auto;
+    background-color: rgb(104, 24, 24);
+    padding: 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+.form input {
+background-color: #dbdada;
+border-radius: 10px;
+height: 1.5rem;
+width: 100%;
+}
+
+.form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form .form-group label {
+    font-size: 1rem;
+  }
+  
+  .form .form-group .input-container {
+    display: flex;
+    align-items: center;
+  }

@@ -1,0 +1,51 @@
+/* Header.css */
+
+/* Styles for the header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  /* Styles for the MyPharmacy title */
+  .header h2 {
+    font-size: 24px;
+    margin: 0;
+    display: inline; /* Add this line to make the title inline */
+  }
+  
+  /* Styles for the cart button and badge container */
+  .cart {
+    display: inline-flex; /* Add this line to make cart and badge inline */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .cart button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the cart badge */
+  .cart div {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-left: 5px; /* Add margin to separate cart button and badge */
+  }
+
+  .badge {
+    margin-left: 10px;
+    background-color: #274e29;
+    padding: 5px;
+    border-radius: 30px;
+  }
+  

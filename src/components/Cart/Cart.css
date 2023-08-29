@@ -1,0 +1,24 @@
+/* Cart.css */
+
+/* Styles for the cart modal container */
+  
+  /* Styles for the cart title */
+  .cart-modal h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* Styles for the close button */
+  .cart-modal button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
