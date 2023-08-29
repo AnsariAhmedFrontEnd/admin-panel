@@ -5,7 +5,16 @@ const AddToCartButton = (props) => {
   const cartCtx = useContext(CartContext);
 
   const addToCartHandler = () => {
-    cartCtx.addItems(props.items);
+    const name = props.items.name;
+    const description = props.items.description;
+    const price = props.items.price;
+
+    const cartObj = {
+      name:name,
+      description:description,
+      price:price
+    }
+    cartCtx.addItems(cartObj);
   };
   return <button onClick={addToCartHandler}>Add To Cart</button>;
 };

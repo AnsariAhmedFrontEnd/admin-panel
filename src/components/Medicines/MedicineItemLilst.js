@@ -8,8 +8,8 @@ const MedicineItemList = (props) => {
 
   const medicineList = MedicineCtx.medicineItems.map((item) => {
     return (
-      <div className="li">
-      <li key={item.name}>
+      <div className="li" key={item._id}>
+      <li>
         <span> Name: {item.name}</span>
         <span> Description: {item.description}</span>
         <span>Price: Rs. {item.price}</span>
